@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "RayyanEstate",
+      "shortDescription": "A full-featured real estate platform enabling users to explore properties, book visits, and manage preferences.",
+      "longDescription": "Developed a comprehensive real estate platform using MERN stack with JWT authentication for secure login and access control. Integrated Cloudinary for property image management and implemented favorite/booking features. Designed a modern UI with React and optimized MongoDB queries for performance. The platform allows users to seamlessly browse properties, save favorites, and schedule visits through an intuitive dashboard.",
+      "skills": ["MongoDB", "Node.js", "React", "Express.js", "Cloudinary", "JWT"],
+      "liveDemoLink": "https://rayyan-estate.vercel.app/"
+    },
+    {
+      "title": "SignLearn",
+      "shortDescription": "AI-powered sign language learning platform for deaf/mute individuals to learn English and Gujarati sign language.",
+      "longDescription": "Built an accessible learning platform using Python, Flask and TensorFlow with accurate hand gesture recognition. Developed an intuitive UI and ranked Top 15 in SIH College-Level Hackathon among 100 teams. The system helps bridge communication gaps by teaching sign language through an easy-to-use interface designed specifically for non-technical users with accessibility needs.",
+      "skills": ["Python", "Flask", "TensorFlow", "JavaScript"],
+      "liveDemoLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf"
+    },
+    {
+      "title": "School Management System",
+      "shortDescription": "MERN-based system to streamline student, teacher, and class administration with role-based access.",
+      "longDescription": "Developed a comprehensive school management solution using MERN stack with JWT authentication for secure role-based access (admin, teacher, student). Implemented MongoDB indexing for optimized database performance and structured query execution. The system efficiently manages all aspects of school administration including student records, teacher assignments, and class scheduling through an intuitive interface.",
+      "skills": ["React", "Express.js", "Node.js", "MongoDB", "TailwindCss"],
+      "liveDemoLink": "https://github.com/mrrayyan2005/School-Management"
+    }
+  ]
+}

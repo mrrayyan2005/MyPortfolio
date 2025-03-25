@@ -1,0 +1,30 @@
+{
+  "FrontEndSkills": [
+    { "name": "React" },
+    { "name": "JavaScript" },
+    { "name": "Bootstrap" },
+    { "name": "Tailwind CSS" }
+  ],
+  "Backend": [
+    { "name": "Nodejs" },
+    { "name": "Expressjs" },
+    { "name": "Javascript" }
+  ],
+  "Databases": [
+    { "name": "MongoDb" },
+    { "name": "Sql" }
+  ],
+  "Programming": [
+    { "name": "Java" },
+    { "name": "python" }
+  ],
+  "CsFundamentals": [
+    { "name": "Oops" },
+    { "name": "Computer Networking" },
+    { "name": "Operating System" },
+    { "name": "Database Management" }
+  ],
+  "DataStructure": [
+    { "name": "Algorithm & Analysis" }
+  ]
+}

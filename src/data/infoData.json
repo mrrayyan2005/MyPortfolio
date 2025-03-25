@@ -1,0 +1,14 @@
+{
+  "name": "Mohd Rayyan",
+  "email": "mr.rayyan112005@gmail.com",
+  "phone": "+91 9897700760",
+  "location": "Greater Noida, India",
+  "bio": "Full Stack Developer (MERN) with strong Data Structures and Algorithms skills in Java. Passionate about building optimized solutions and competitive programming.",
+  "about": "MERN stack developer skilled in implementing efficient algorithms using Java. Experienced in applying DSA concepts like Trees, Graphs and Dynamic Programming to solve complex problems.",
+  "longAbout": "I'm a B.Tech Computer Science student at Noida Institute of Engineering & Technology with a CGPA of 8.73, specializing in full-stack development and algorithmic problem solving. My technical expertise combines Java for Data Structures and Algorithms with the MERN stack for web development. I have a strong foundation in implementing efficient algorithms using Java's Collections Framework and solving complex problems with optimal time and space complexity. My projects demonstrate practical applications of these skills, including RayyanEstate, a real estate platform with JWT authentication, and an AI Sign Language Learning application that received recognition in the College-level SIH Hackathon. I actively participate in competitive programming and hackathons, where I apply my problem-solving skills to real-world challenges. My approach to development emphasizes clean code, proper architecture, and algorithmic efficiency, whether working on backend systems with Java or full-stack applications with JavaScript technologies.",
+  "socialLinks": {
+    "github": "https://github.com/mrrayyan2005",
+    "linkedin": "https://www.linkedin.com/in/mohd-rayyan-380173285/",
+    "leetcode": "https://leetcode.com/u/mrrayyan123/"
+  }
+}

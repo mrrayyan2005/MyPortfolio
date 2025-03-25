@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "year": "2022 - 2026",
+      "degree": "B.Tech in Information Technology",
+      "institute": "Noida Institute of Engineering & Technology, Greater Noida",
+      "CGPA": "8.73/10"
+    },
+    {
+      "year": "2021 - 2022",
+      "degree": "Intermediate in Science (PCM)",
+      "institute": "R R Sr. Sec Public School, Noorpur (Bijnor)",
+      "Percentage": "92%"
+    },
+    {
+      "year": "2019 - 2020",
+      "degree": "Matric",
+      "institute": "R R Sr. Sec Public School, Noorpur (Bijnor)",
+      "Percentage": "95%"
+    }
+  ]
+}
