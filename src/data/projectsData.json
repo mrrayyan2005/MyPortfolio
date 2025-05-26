@@ -10,16 +10,16 @@
     {
       "title": "SignLearn",
       "shortDescription": "AI-powered sign language learning platform for deaf/mute individuals to learn English and Gujarati sign language.",
-      "longDescription": "Built an accessible learning platform using Python, Flask and TensorFlow with accurate hand gesture recognition. Developed an intuitive UI and ranked Top 15 in SIH College-Level Hackathon among 100 teams. The system helps bridge communication gaps by teaching sign language through an easy-to-use interface designed specifically for non-technical users with accessibility needs.",
+      "longDescription": "Built an accessible learning platform using Python, Flask and TensorFlow with accurate hand gesture recognition. Developed an intuitive UI and ranked Top 10 in SIH College-Level Hackathon among 100 teams. The system helps bridge communication gaps by teaching sign language through an easy-to-use interface designed specifically for non-technical users with accessibility needs.",
       "skills": ["Python", "Flask", "TensorFlow", "JavaScript"],
       "liveDemoLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf"
     },
     {
-      "title": "School Management System",
-      "shortDescription": "MERN-based system to streamline student, teacher, and class administration with role-based access.",
-      "longDescription": "Developed a comprehensive school management solution using MERN stack with JWT authentication for secure role-based access (admin, teacher, student). Implemented MongoDB indexing for optimized database performance and structured query execution. The system efficiently manages all aspects of school administration including student records, teacher assignments, and class scheduling through an intuitive interface.",
-      "skills": ["React", "Express.js", "Node.js", "MongoDB", "TailwindCss"],
-      "liveDemoLink": "https://github.com/mrrayyan2005/School-Management"
-    }
+  "title": "NeuraPrep",
+  "shortDescription": "AI-powered mock interview platform using Gemini AI with personalized feedback and secure authentication.",
+  "longDescription": "Developed an intelligent mock interview platform leveraging React for the frontend and Node.js for the backend. Integrated Gemini AI to generate personalized interview questions and provide contextual feedback based on user responses. Implemented Clerk for secure authentication with role-based access (admin, user). The platform features a dynamic dashboard to track user progress and stores session data and performance metrics in a cloud-connected database, enabling insightful analytics and continuous improvement.",
+  "skills": ["React", "Node.js", "Clerk", "Gemini AI", "JavaScript"],
+  "liveDemoLink": "https://ai-mock-interview-chi-five.vercel.app/dashboard"
+}
   ]
 }
