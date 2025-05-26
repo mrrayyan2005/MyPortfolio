@@ -3,13 +3,13 @@ import styles from "../assets/CSS/ProjectSection.module.css";
 import projectsData from "../data/projectsData.json";
 import { motion } from 'framer-motion';
 import { animations } from "../components/animations.js";
-import SchoolMangImage from "../assets/img/SchoolMang.png";
+import NeuraPrep from "../assets/img/NeuraPrep.png";
 import RayyanEstateImage from "../assets/img/RayyanEstate.png";
 import SignLearnImage from "../assets/img/SignLearn.png";
 const ProjectSection = () => {
   const getImage = (title) => {
-     if (title === "School Management System") {
-      return SchoolMangImage;
+     if (title === "NeuraPrep") {
+      return NeuraPrep;
     }else if (title === "SignLearn") {
       return SignLearnImage;
     }  
