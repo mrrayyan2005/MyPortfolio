@@ -1,25 +1,40 @@
 {
   "projects": [
     {
+      "title": "InsightCRM",
+      "shortDescription": "AI-powered CRM using React.js, Node.js, and MongoDB to automate marketing and enhance user engagement.",
+      "longDescription": "Built an AI-powered CRM using React.js, Node.js, and MongoDB to automate marketing and enhance user engagement. Developed email tracking with seven fallback methods to ensure reliable analytics and audience insights. Created a rule builder and integrated Gemini AI for real-time segmentation and campaign optimization. Designed a responsive React dashboard with Recharts; deployed the backend on Render and the frontend on Vercel.",
+      "skills": ["React.js", "Node.js", "MongoDB", "Gemini AI", "Tailwind CSS"],
+      "liveDemoLink": "https://insight-crm-eight.vercel.app/",
+      "githubLink": "https://github.com/mrrayyan2005/InsightCRM",
+      "date": "August 2025"
+    },
+    {
       "title": "RayyanEstate",
-      "shortDescription": "A full-featured real estate platform enabling users to explore properties, book visits, and manage preferences.",
-      "longDescription": "Developed a comprehensive real estate platform using MERN stack with JWT authentication for secure login and access control. Integrated Cloudinary for property image management and implemented favorite/booking features. Designed a modern UI with React and optimized MongoDB queries for performance. The platform allows users to seamlessly browse properties, save favorites, and schedule visits through an intuitive dashboard.",
+      "shortDescription": "A full-stack real estate platform enabling property browsing, bookings, and preference management.",
+      "longDescription": "Developed a full-stack real estate platform enabling property browsing, bookings, and preference management. Implemented JWT-based authentication and integrated Cloudinary for secure image uploads, improving backend reliability. Optimized API design and MongoDB queries to enhance backend performance and responsiveness.",
       "skills": ["MongoDB", "Node.js", "React", "Express.js", "Cloudinary", "JWT"],
-      "liveDemoLink": "https://rayyan-estate.vercel.app/"
+      "liveDemoLink": "https://rayyan-estate.vercel.app/",
+      "githubLink": "https://github.com/mrrayyan2005/RayyanEstate",
+      "date": "January 2025"
     },
     {
-      "title": "SignLearn",
-      "shortDescription": "AI-powered sign language learning platform for deaf/mute individuals to learn English and Gujarati sign language.",
-      "longDescription": "Built an accessible learning platform using Python, Flask and TensorFlow with accurate hand gesture recognition. Developed an intuitive UI and ranked Top 10 in SIH College-Level Hackathon among 100 teams. The system helps bridge communication gaps by teaching sign language through an easy-to-use interface designed specifically for non-technical users with accessibility needs.",
-      "skills": ["Python", "Flask", "TensorFlow", "JavaScript"],
-      "liveDemoLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf"
+      "title": "Sign Language Learner",
+      "shortDescription": "ML-based web app to teach sign language using real-time hand gesture recognition via webcam.",
+      "longDescription": "Created an ML-based web app to teach sign language using real-time hand gesture recognition via webcam. Developed a Flask backend and JavaScript frontend, integrating Keras CNN for accurate real-time sign detection.",
+      "skills": ["Python", "Flask", "Keras", "JavaScript"],
+      "liveDemoLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf",
+      "githubLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf",
+      "date": "September 2024"
     },
     {
-  "title": "NeuraPrep",
-  "shortDescription": "AI-powered mock interview platform using Gemini AI with personalized feedback and secure authentication.",
-  "longDescription": "Developed an intelligent mock interview platform leveraging React for the frontend and Node.js for the backend. Integrated Gemini AI to generate personalized interview questions and provide contextual feedback based on user responses. Implemented Clerk for secure authentication with role-based access (admin, user). The platform features a dynamic dashboard to track user progress and stores session data and performance metrics in a cloud-connected database, enabling insightful analytics and continuous improvement.",
-  "skills": ["React", "Node.js", "Clerk", "Gemini AI", "JavaScript"],
-  "liveDemoLink": "https://ai-mock-interview-chi-five.vercel.app/dashboard"
-}
+      "title": "NeuraPrep",
+      "shortDescription": "AI-powered mock interview platform using Gemini AI with personalized feedback and secure authentication.",
+      "longDescription": "Developed an intelligent mock interview platform leveraging React for the frontend and Node.js for the backend. Integrated Gemini AI to generate personalized interview questions and provide contextual feedback based on user responses. Implemented Clerk for secure authentication with role-based access (admin, user). The platform features a dynamic dashboard to track user progress and stores session data and performance metrics in a cloud-connected database, enabling insightful analytics and continuous improvement.",
+      "skills": ["React", "Node.js", "Clerk", "Gemini AI", "JavaScript"],
+      "liveDemoLink": "https://ai-mock-interview-chi-five.vercel.app/dashboard",
+      "githubLink": "https://github.com/mrrayyan2005/AI-mock-Interview",
+      "date": "March 2024"
+    }
   ]
 }
