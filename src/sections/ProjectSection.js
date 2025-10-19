@@ -7,6 +7,7 @@ import NeuraPrep from "../assets/img/NeuraPrep.png";
 import RayyanEstateImage from "../assets/img/RayyanEstate.png";
 import SignLearnImage from "../assets/img/SignLearn.png";
 import InsightCrmImage from "../assets/img/InsightCrm.png";
+import ExamprepImage from "../assets/img/Examprep.png";
 
 const ProjectSection = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -20,6 +21,8 @@ const ProjectSection = () => {
       return SignLearnImage;
     } else if (title === "NeuraPrep") {
       return NeuraPrep;
+    } else if (title === "Examprep") {
+      return ExamprepImage;
     }
   };
 
@@ -29,6 +32,7 @@ const ProjectSection = () => {
       case 'RayyanEstate': return '🏠';
       case 'Sign Language Learner': return '🤝';
       case 'NeuraPrep': return '🎯';
+      case 'Examprep': return '📚';
       default: return '💼';
     }
   };
@@ -47,7 +51,10 @@ const ProjectSection = () => {
       'Cloudinary': '#3448C5',
       'Express.js': '#000000',
       'Tailwind CSS': '#06B6D4',
-      'Clerk': '#6C47FF'
+      'Clerk': '#6C47FF',
+      'TypeScript': '#3178C6',
+      'Redux Toolkit': '#764ABC',
+      'Vite': '#646CFF'
     };
     return colors[tech] || '#6366F1';
   };
