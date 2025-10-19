@@ -32,7 +32,7 @@
       "shortDescription": "AI-powered mock interview platform using Gemini AI with personalized feedback and secure authentication.",
       "longDescription": "Developed an intelligent mock interview platform leveraging React for the frontend and Node.js for the backend. Integrated Gemini AI to generate personalized interview questions and provide contextual feedback based on user responses. Implemented Clerk for secure authentication with role-based access (admin, user). The platform features a dynamic dashboard to track user progress and stores session data and performance metrics in a cloud-connected database, enabling insightful analytics and continuous improvement.",
       "skills": ["React", "Node.js", "Clerk", "Gemini AI", "JavaScript"],
-      "liveDemoLink": "https://ai-mock-interview-chi-five.vercel.app/dashboard",
+      "liveDemoLink": "https://ai-mock-interview-git-master-mohd-rayyans-projects.vercel.app/sign-in?redirect_url=https%3A%2F%2Fai-mock-interview-git-master-mohd-rayyans-projects.vercel.app%2Fdashboard",
       "githubLink": "https://github.com/mrrayyan2005/AI-mock-Interview",
       "date": "March 2024"
     }
