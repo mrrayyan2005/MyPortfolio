@@ -9,6 +9,15 @@
       "githubLink": "https://github.com/mrrayyan2005/InsightCRM",
       "date": "August 2025"
     },
+        {
+      "title": "Examprep",
+      "shortDescription": "Full-stack web application for competitive exam preparation with study management, progress tracking, and collaborative learning features.",
+      "longDescription": "Developed a comprehensive study planner application designed for competitive exam preparation (UPSC, SSC, Banking, Railways). Built with Node.js/Express backend and React/TypeScript frontend, featuring study management, progress analytics, resource tracking, collaborative study groups, and real-time progress monitoring. Includes JWT authentication, Redux state management, and responsive UI with Tailwind CSS.",
+      "skills": ["Node.js", "Express.js", "MongoDB", "React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "JWT", "Vite"],
+      "liveDemoLink": "https://exampreperation.vercel.app/",
+      "githubLink": "https://github.com/mrrayyan2005/Examprep",
+      "date": "April 2025"
+    },
     {
       "title": "RayyanEstate",
       "shortDescription": "A full-stack real estate platform enabling property browsing, bookings, and preference management.",
@@ -26,16 +35,6 @@
       "liveDemoLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf",
       "githubLink": "https://github.com/mrrayyan2005/learning-app-for-mute-and-deaf",
       "date": "September 2024"
-    },
-    
-    {
-      "title": "Examprep",
-      "shortDescription": "Full-stack web application for competitive exam preparation with study management, progress tracking, and collaborative learning features.",
-      "longDescription": "Developed a comprehensive study planner application designed for competitive exam preparation (UPSC, SSC, Banking, Railways). Built with Node.js/Express backend and React/TypeScript frontend, featuring study management, progress analytics, resource tracking, collaborative study groups, and real-time progress monitoring. Includes JWT authentication, Redux state management, and responsive UI with Tailwind CSS.",
-      "skills": ["Node.js", "Express.js", "MongoDB", "React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "JWT", "Vite"],
-      "liveDemoLink": "https://exampreperation.vercel.app/",
-      "githubLink": "https://github.com/mrrayyan2005/Examprep",
-      "date": "April 2024"
     },
     {
       "title": "NeuraPrep",
