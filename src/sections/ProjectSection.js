@@ -7,7 +7,7 @@ import NeuraPrep from "../assets/img/NeuraPrep.png";
 import RayyanEstateImage from "../assets/img/RayyanEstate.png";
 import SignLearnImage from "../assets/img/SignLearn.png";
 import InsightCrmImage from "../assets/img/InsightCrm.png";
-import ExamprepImage from "../assets/img/exam.png";
+import ExamprepImage from "../assets/img/examprep.png";
 
 const ProjectSection = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
