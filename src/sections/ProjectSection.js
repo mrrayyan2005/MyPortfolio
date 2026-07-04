@@ -21,7 +21,7 @@ const ProjectSection = () => {
       return SignLearnImage;
     } else if (title === "NeuraPrep") {
       return NeuraPrep;
-    } else if (title === "Examprep") {
+    } else if (title === "ExamPrep" || title === "Examprep") {
       return ExamprepImage;
     }
   };
@@ -32,6 +32,7 @@ const ProjectSection = () => {
       case 'RayyanEstate': return '🏠';
       case 'Sign Language Learner': return '🤝';
       case 'NeuraPrep': return '🎯';
+      case 'ExamPrep': return '📚';
       case 'Examprep': return '📚';
       default: return '💼';
     }
@@ -53,7 +54,6 @@ const ProjectSection = () => {
       'Tailwind CSS': '#06B6D4',
       'Clerk': '#6C47FF',
       'TypeScript': '#3178C6',
-      'Redux Toolkit': '#764ABC',
       'Vite': '#646CFF'
     };
     return colors[tech] || '#6366F1';
