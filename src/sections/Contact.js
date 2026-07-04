@@ -7,7 +7,6 @@ import emailjs from "emailjs-com";
 import infoData from "../data/infoData.json";
 import { ReactComponent as Githubicon } from "../assets/Svg/bxl-github.svg";
 import { ReactComponent as Linkedinicon } from "../assets/Svg/bxl-linkedin.svg";
-import { ReactComponent as Instaicon } from "../assets/Svg/bxl-instagram-alt.svg";
 import { ReactComponent as PhoneIcon} from "../assets/Svg/bxs-phone.svg";
 import { ReactComponent as EmailIcon} from "../assets/Svg/email.svg";
 import { ReactComponent as HomeIcon} from "../assets/Svg/home.svg";
