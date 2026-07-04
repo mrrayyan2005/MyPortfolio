@@ -2,11 +2,18 @@
   "name": "Mohd Rayyan",
   "email": "mr.rayyan2005@gmail.com",
   "phone": "+91 9897700760",
-  "location": "Greater Noida, Uttar Pradesh",
+  "location": "Bengaluru, Karnataka",
   "currentRole": "Product Solution Engineer",
-  "bio": "Developer skilled in Java, data structures and algorithms, and full-stack development (MERN). Proficient in SQL, RESTful APIs, and scalable application development. Currently interning at Juspay as a Product Solution Engineer.",
-  "about": "Product Solution Engineer at Juspay working on backend services, API debugging, and performance optimization in real-time transaction systems. MERN stack developer with strong algorithmic problem-solving skills and experience in payment infrastructure.",
-  "longAbout": "I'm a B.Tech Information Technology student at Noida Institute of Engineering & Technology with a CGPA of 8.71, currently working as a Product Solution Engineer Intern at Juspay since July 2025. At Juspay, I manage payment infrastructure for  international merchants, design and implement RESTful APIs for payments, refunds, and checkout SDKs, and collaborate with product and engineering teams to develop real-time payment solutions. My technical expertise spans full-stack development using the MERN stack, Java for Data Structures and Algorithms, and payment technologies including Payment Gateways, Merchant Onboarding, and Transaction Flows. I have solved 600+ DSA problems on LeetCode and GeeksforGeeks, demonstrating strong problem-solving skills. My projects include InsightCRM (AI-powered CRM with Gemini AI), RayyanEstate (full-stack real estate platform), and Sign Language Learner (ML-based web app), showcasing practical applications of my technical skills. I led a team to achieve Top 5 in the NSUT National Hackathon and actively contribute to real-time payment solutions in production environments.",
+  "bio": "Product Solution Engineer at Juspay focused on merchant onboarding, payment integrations, and production payment systems. Skilled in Java, Python, JavaScript, SQL, REST APIs, backend systems, API debugging, and transaction analysis.",
+  "about": "Product Solution Engineer at Juspay with hands-on experience in merchant onboarding, payment integrations, production go-lives, RCA, API tracing, service log analysis, and backend systems for real-time payment environments.",
+  "longAbout": "I'm a B.Tech Information Technology graduate from Noida Institute of Engineering and Technology with an 8.70 CGPA, now working as a Product Solution Engineer at Juspay in Bengaluru. My work spans merchant onboarding, payment integrations, production go-lives, API debugging, RCA, transaction lifecycle analysis, and cross-functional delivery with engineering, product, and operations teams.",
+  "story": [
+    "I'm a B.Tech Information Technology graduate from Noida Institute of Engineering and Technology with an 8.70 CGPA, now working as a Product Solution Engineer at Juspay in Bengaluru.",
+    "At Juspay, I deliver end-to-end onboarding and production go-live for international merchants, validating APIs, payment configurations, and integration readiness across multiple payment methods.",
+    "I work on production payment issues through API tracing, service log correlation, transaction lifecycle analysis, and debugging integration flows across distributed payment systems.",
+    "Earlier as a Product Solution Engineer Intern, I helped build internal AI-powered engineering tools for production debugging, payment transaction analysis, and system observability, improving debugging efficiency by 30%.",
+    "Alongside engineering work, I have led coding community initiatives, organized hackathons for 500+ students, and led a 4-member team to a Top 5 finish at the NSUT National Hackathon."
+  ],
   "socialLinks": {
     "github": "https://github.com/mrrayyan2005",
     "linkedin": "https://www.linkedin.com/in/mohd-rayyan-380173285/",
