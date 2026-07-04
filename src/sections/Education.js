@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { animations } from "../components/animations.js";
 import styles from '../assets/CSS/Education.module.css';
@@ -6,17 +6,50 @@ import { ReactComponent as Calendar } from '../assets/Svg/bx-calendar.svg';
 import educationData from '../data/educationData.json'; 
 
 function Education() {
-  const [activeTab, setActiveTab] = useState('timeline');
+  const monthNumbers = {
+    jan: 0,
+    january: 0,
+    feb: 1,
+    february: 1,
+    mar: 2,
+    march: 2,
+    apr: 3,
+    april: 3,
+    may: 4,
+    jun: 5,
+    june: 5,
+    jul: 6,
+    july: 6,
+    aug: 7,
+    august: 7,
+    sep: 8,
+    september: 8,
+    oct: 9,
+    october: 9,
+    nov: 10,
+    november: 10,
+    dec: 11,
+    december: 11
+  };
+
+  const getTimelineStart = (yearRange) => {
+    const match = yearRange.match(/([A-Za-z]+)\s+(\d{4})|(\d{4})/);
+
+    if (!match) {
+      return 0;
+    }
+
+    const year = Number(match[2] || match[3]);
+    const month = match[1] ? monthNumbers[match[1].toLowerCase()] ?? 0 : 0;
+
+    return new Date(year, month).getTime();
+  };
 
   const allItems = [
     ...educationData.education.map(item => ({ ...item, type: 'education' })),
-    ...educationData.experience.map(item => ({ ...item, type: 'experience' }))
-  ].sort((a, b) => {
-    // Sort by year, most recent first
-    const yearA = parseInt(a.year.split('-')[0] || a.year.split(' ')[0]);
-    const yearB = parseInt(b.year.split('-')[0] || b.year.split(' ')[0]);
-    return yearB - yearA;
-  });
+    ...educationData.experience.map(item => ({ ...item, type: 'experience' })),
+    ...(educationData.achievements || []).map(item => ({ ...item, type: 'achievement' }))
+  ].sort((a, b) => getTimelineStart(b.year) - getTimelineStart(a.year));
 
 
   return (
@@ -53,7 +86,7 @@ function Education() {
                   <div className={styles.timelineContent}>
                     <div className={styles.timelineHeader}>
                       <div className={styles.timelineIcon}>
-                        {item.type === 'education' ? '🎓' : '💼'}
+                        {item.type === 'education' ? '🎓' : item.type === 'achievement' ? '🏆' : '💼'}
                       </div>
                       <div className={styles.timelineDate}>
                         <Calendar className={styles.calendarIcon} />
@@ -79,37 +112,36 @@ function Education() {
                             </p>
                           )}
                         </>
-                      ) : (
+                      ) : item.type === 'experience' ? (
                         <>
                           <h3 className={styles.timelineTitle}>{item.role}</h3>
                           <h4 className={styles.timelineSubtitle}>{item.company}</h4>
+                          {item.location && (
+                            <div className={styles.timelineMeta}>{item.location}</div>
+                          )}
                           <p className={styles.timelineDescription}>{item.description}</p>
-                          
+
                           {/* Experience Highlights */}
                           <div className={styles.experienceHighlights}>
-                            <div className={styles.highlight}>
-                              <span className={styles.highlightIcon}>🌍</span>
-                              <span>Domestic & International Merchants</span>
-                            </div>
-                            <div className={styles.highlight}>
-                              <span className={styles.highlightIcon}>⚡</span>
-                              <span>Real-time Systems</span>
-                            </div>
-                            <div className={styles.highlight}>
-                              <span className={styles.highlightIcon}>🔗</span>
-                              <span>API Development</span>
-                            </div>
-                             <div className={styles.highlight}>
-                              <span className={styles.highlightIcon}>⚡</span>
-                              <span>Debugging</span>
-                            </div>
+                            {(item.highlights || []).map((highlight, highlightIndex) => (
+                              <div className={styles.highlight} key={highlight}>
+                                <span className={styles.highlightIcon}>{highlightIndex === 0 ? '🌍' : '⚡'}</span>
+                                <span>{highlight}</span>
+                              </div>
+                            ))}
                           </div>
+                        </>
+                      ) : (
+                        <>
+                          <h3 className={styles.timelineTitle}>{item.title}</h3>
+                          <h4 className={styles.timelineSubtitle}>{item.organization}</h4>
+                          <p className={styles.timelineDescription}>{item.description}</p>
                         </>
                       )}
                     </div>
-                    
+
                     <div className={styles.timelineBadge}>
-                      {item.type === 'education' ? 'Academic' : 'Professional'}
+                      {item.type === 'education' ? 'Academic' : item.type === 'achievement' ? 'Leadership' : 'Professional'}
                     </div>
                   </div>
                   
