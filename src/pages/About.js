@@ -9,6 +9,9 @@ import Contact from '../sections/Contact';
 
 function About() {
   const { name, longAbout } = infoData;
+  const aboutParagraphs = Array.isArray(infoData.story) && infoData.story.length
+    ? infoData.story
+    : [longAbout];
 
   useEffect(() => {
       window.scrollTo(0, 0);
@@ -40,25 +43,9 @@ function About() {
 
         
                     <div className={styles.p_text}>
-                       <p>
-                          I'm a <strong>B.Tech Information Technology</strong> student at Noida Institute of Engineering & Technology with a CGPA of 8.71, currently working as a <strong>Product Solution Engineer Intern at Juspay</strong> since July 2025.
-                       </p>
-                       
-                       <p>
-                          At Juspay, I manage payment infrastructure for international merchants, design and implement <strong>RESTful APIs</strong> for payments, refunds, and checkout SDKs, and collaborate with product and engineering teams to develop real-time payment solutions.
-                       </p>
-                       
-                       <p>
-                          My technical expertise spans <strong>full-stack development using the MERN stack</strong>, Java for Data Structures and Algorithms, and payment technologies including Payment Gateways, Merchant Onboarding, and Transaction Flows.
-                       </p>
-                       
-                       <p>
-                          I have solved <strong>600+ DSA problems</strong> on LeetCode and GeeksforGeeks, demonstrating strong problem-solving skills. My projects include InsightCRM (AI-powered CRM with Gemini AI), RayyanEstate (full-stack real estate platform), and Sign Language Learner (ML-based web app).
-                       </p>
-                       
-                       <p>
-                          I led a team to achieve <strong>Top 5 in the NSUT National Hackathon</strong> and actively contribute to real-time payment solutions in production environments.
-                       </p>
+                       {aboutParagraphs.map((paragraph, index) => (
+                          <p key={index}>{paragraph}</p>
+                       ))}
                     </div>
                 </div>
             </motion.div>
