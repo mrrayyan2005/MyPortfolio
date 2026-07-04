@@ -12,31 +12,43 @@ const SkillsSection = () => {
       key: 'ProgrammingLanguages',
       title: 'Programming Languages',
       icon: '💻',
-      color: '#3b82f6'
+      color: '#3b82f6',
+      rgb: '59, 130, 246'
     },
     {
       key: 'WebTechnologies',
       title: 'Web Technologies',
       icon: '🌐',
-      color: '#10b981'
+      color: '#10b981',
+      rgb: '16, 185, 129'
     },
     {
       key: 'DeveloperTools',
       title: 'Developer Tools',
       icon: '🛠️',
-      color: '#f59e0b'
+      color: '#f59e0b',
+      rgb: '245, 158, 11'
     },
     {
       key: 'CsFundamentals',
       title: 'CS Fundamentals',
       icon: '🧠',
-      color: '#8b5cf6'
+      color: '#8b5cf6',
+      rgb: '139, 92, 246'
     },
     {
       key: 'ProductIntegration',
-      title: 'Product Integration',
+      title: 'Payment & Integration',
       icon: '🔗',
-      color: '#ef4444'
+      color: '#ef4444',
+      rgb: '239, 68, 68'
+    },
+    {
+      key: 'ProductionEngineering',
+      title: 'Production Engineering',
+      icon: '🛠️',
+      color: '#14b8a6',
+      rgb: '20, 184, 166'
     }
   ];
 
@@ -58,7 +70,7 @@ const SkillsSection = () => {
               key={category.key}
               className={`${styles.navButton} ${activeCategory === category.key ? styles.active : ''}`}
               onClick={() => setActiveCategory(category.key)}
-              style={{ '--category-color': category.color }}
+              style={{ '--category-color': category.color, '--category-color-rgb': category.rgb }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
@@ -106,7 +118,7 @@ const SkillsSection = () => {
                   <div className={styles.skillFooter}>
                     <div 
                       className={styles.categoryBadge}
-                      style={{ '--category-color': category.color }}
+                      style={{ '--category-color': category.color, '--category-color-rgb': category.rgb }}
                     >
                       {category.icon}
                     </div>
