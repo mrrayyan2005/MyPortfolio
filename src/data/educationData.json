@@ -1,24 +1,42 @@
 {
   "education": [
     {
-      "year": "Nov 2022 - Apr 2026",
+      "year": "Nov 2022 - Jun 2026",
       "degree": "Bachelor of Technology in Information Technology",
       "institute": "Noida Institute of Engineering and Technology, Greater Noida",
-      "CGPA": "8.71/10"
-    },
-    {
-      "year": "Apr 2021 - Mar 2022",
-      "degree": "Class XII (CBSE), Science Stream",
-      "institute": "R R Senior Secondary Public School, Bijnor",
-      "Percentage": "92%"
+      "CGPA": "8.70/10"
     }
   ],
   "experience": [
     {
-      "year": "July 2025 - Present",
+      "year": "June 2026 - Present",
+      "role": "Product Solution Engineer",
+      "company": "Juspay",
+      "location": "Bengaluru, India",
+      "description": "Delivered end-to-end onboarding and production go-live for 10+ international merchants, validating APIs, payment configurations, and integration readiness across 8+ payment methods. Performed RCA on production payment issues using API tracing, service log correlation, transaction lifecycle analysis, and integration-flow debugging across distributed payment systems. Partnered with engineering, product, and operations teams to resolve integration blockers, manage UAT, validate releases, and improve production reliability.",
+      "highlights": ["10+ international merchants", "8+ payment methods", "API tracing", "Production go-live"]
+    },
+    {
+      "year": "July 2025 - May 2026",
       "role": "Product Solution Engineer Intern",
       "company": "Juspay",
-      "description": "Managed payment infrastructure for many domestic and international merchants, ensuring high reliability and uptime. Designed, implemented, and optimized RESTful APIs for payments, refunds, and checkout SDKs. Diagnosed and resolved production issues efficiently using Kibana and OpenSearch. Collaborated with product and engineering teams to develop real-time payment solutions and improve transaction performance."
+      "location": "Bengaluru, India",
+      "description": "Developed core capabilities for 2+ internal AI-powered engineering tools used for production debugging, payment transaction analysis, and system observability, improving debugging efficiency by 30%. Performed root cause analysis through API tracing, service log correlation, and end-to-end payment transaction analysis across distributed payment services. Implemented workflow improvements that accelerated production issue investigation and improved engineering productivity.",
+      "highlights": ["2+ internal AI tools", "30% debugging improvement", "Transaction analysis", "System observability"]
+    }
+  ],
+  "achievements": [
+    {
+      "year": "Jan 2023 - Jan 2025",
+      "title": "Technical Lead",
+      "organization": "Coding Club, NIET",
+      "description": "Organized hackathons and coding initiatives for 500+ students."
+    },
+    {
+      "year": "Nov 2025",
+      "title": "Team Lead",
+      "organization": "NSUT National Hackathon",
+      "description": "Led a 4-member team to a Top 5 finish out of 100+ teams."
     }
   ]
 }
