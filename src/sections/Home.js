@@ -7,7 +7,6 @@ import styles from '../assets/CSS/Home.module.css';
 import CV from '../assets/documents/CV.pdf';
 import { ReactComponent as GitHubIcon } from '../assets/Svg/bxl-github.svg';
 import { ReactComponent as LinkedInIcon } from '../assets/Svg/bxl-linkedin.svg';
-import { ReactComponent as InstagramIcon } from '../assets/Svg/bxl-instagram-alt.svg';
 import { ReactComponent as LeetCodeIcon } from '../assets/Svg/bxl-leetcode.svg';
 
 const Home = () => {
