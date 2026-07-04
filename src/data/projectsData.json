@@ -2,18 +2,18 @@
   "projects": [
     {
       "title": "InsightCRM",
-      "shortDescription": "AI-powered CRM using React.js, Node.js, and MongoDB to automate marketing and enhance user engagement.",
-      "longDescription": "Built an AI-powered CRM using React.js, Node.js, and MongoDB to automate marketing and enhance user engagement. Developed email tracking with seven fallback methods to ensure reliable analytics and audience insights. Created a rule builder and integrated Gemini AI for real-time segmentation and campaign optimization. Designed a responsive React dashboard with Recharts; deployed the backend on Render and the frontend on Vercel.",
+      "shortDescription": "AI-powered CRM for automated marketing campaigns, audience management, and actionable analytics.",
+      "longDescription": "Developed an AI-powered CRM platform enabling automated marketing campaigns, audience management, and actionable analytics through Gemini AI and scalable REST APIs. Built the React dashboard, Node.js services, MongoDB data models, segmentation workflows, and campaign tooling for a responsive full-stack experience.",
       "skills": ["React.js", "Node.js", "MongoDB", "Gemini AI", "Tailwind CSS"],
       "liveDemoLink": "https://insight-crm-eight.vercel.app/",
       "githubLink": "https://github.com/mrrayyan2005/InsightCRM",
       "date": "August 2025"
     },
         {
-      "title": "Examprep",
-      "shortDescription": "Full-stack web application for competitive exam preparation with study management, progress tracking, and collaborative learning features.",
-      "longDescription": "Developed a comprehensive study planner application designed for competitive exam preparation (UPSC, SSC, Banking, Railways). Built with Node.js/Express backend and React/TypeScript frontend, featuring study management, progress analytics, resource tracking, collaborative study groups, and real-time progress monitoring. Includes JWT authentication, Redux state management, and responsive UI with Tailwind CSS.",
-      "skills": ["Node.js", "Express.js", "MongoDB", "React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "JWT", "Vite"],
+      "title": "ExamPrep",
+      "shortDescription": "MERN-based learning platform with study management, progress tracking, analytics dashboards, and REST APIs.",
+      "longDescription": "Designed and developed a MERN-based learning platform with study management, progress tracking, analytics dashboards, and REST APIs to deliver an interactive and scalable learning experience. Built the React and TypeScript frontend, Node.js and Express backend, MongoDB data layer, and Vite-powered workflow.",
+      "skills": ["MongoDB", "Express.js", "React", "Node.js", "TypeScript", "Vite"],
       "liveDemoLink": "https://exampreperation-client.vercel.app/",
       "githubLink": "https://github.com/mrrayyan2005/Examprep",
       "date": "April 2025"
