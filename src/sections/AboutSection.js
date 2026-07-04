@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { animations } from "../components/animations.js";
 
 const AboutSection = () => {
-    const { about, longAbout, socialLinks } = aboutData;
+    const { about, socialLinks } = aboutData;
 
 
     return (
@@ -47,19 +47,19 @@ const AboutSection = () => {
                                 <div className={styles.highlightsList}>
                                     <div className={styles.highlight}>
                                         <span className={styles.highlightIcon}>🏗️</span>
-                                        <span>Backend Services & API Development</span>
+                                        <span>Merchant Onboarding & Production Go-Lives</span>
                                     </div>
                                     <div className={styles.highlight}>
                                         <span className={styles.highlightIcon}>🔍</span>
-                                        <span>Performance Optimization & Debugging</span>
+                                        <span>API Tracing, RCA & Service Log Analysis</span>
                                     </div>
                                     <div className={styles.highlight}>
                                         <span className={styles.highlightIcon}>💼</span>
-                                        <span>Real-time Payment Solutions</span>
+                                        <span>Payment Integrations & Payment Flows</span>
                                     </div>
                                     <div className={styles.highlight}>
                                         <span className={styles.highlightIcon}>🌐</span>
-                                        <span>Full-Stack Web Development</span>
+                                        <span>Backend Systems & REST APIs</span>
                                     </div>
                                 </div>
                             </motion.div>
