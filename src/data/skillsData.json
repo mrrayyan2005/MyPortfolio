@@ -1,21 +1,20 @@
 {
   "ProgrammingLanguages": [
     { "name": "Java" },
-    { "name": "JavaScript" },
     { "name": "Python" },
-    { "name": "Haskell" },
+    { "name": "JavaScript" },
     { "name": "SQL" }
   ],
   "WebTechnologies": [
     { "name": "React.js" },
     { "name": "Node.js" },
     { "name": "Express.js" },
-    { "name": "Bootstrap" },
-    { "name": "Tailwind CSS" },
+    { "name": "MongoDB" },
     { "name": "Mongoose" },
+    { "name": "Tailwind CSS" },
+    { "name": "REST APIs" },
     { "name": "HTML5" },
-    { "name": "CSS3" },
-    { "name": "RESTful APIs" }
+    { "name": "CSS3" }
   ],
   "DeveloperTools": [
     { "name": "Git" },
@@ -26,14 +25,21 @@
   "CsFundamentals": [
     { "name": "Data Structures and Algorithms" },
     { "name": "OOP" },
-    { "name": "DBMS" },
-    { "name": "Operating Systems" },
-    { "name": "Computer Networks" }
+    { "name": "DBMS" }
   ],
   "ProductIntegration": [
-    { "name": "Payment Gateway" },
     { "name": "Merchant Onboarding" },
-    { "name": "Transaction Flows" },
-    { "name": "SDKs/APIs" }
+    { "name": "Payment Integrations" },
+    { "name": "Payment Flows" },
+    { "name": "REST APIs" },
+    { "name": "Production Go-Live" }
+  ],
+  "ProductionEngineering": [
+    { "name": "API Debugging" },
+    { "name": "Root Cause Analysis" },
+    { "name": "Service Log Analysis" },
+    { "name": "Transaction Analysis" },
+    { "name": "UAT Verification" },
+    { "name": "Release Validation" }
   ]
 }
